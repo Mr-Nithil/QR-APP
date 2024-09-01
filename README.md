@@ -1,16 +1,3 @@
 # qr_app
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+QR App is a Flutter application integrated with Firebase, designed to facilitate photo storage and event management through QR code scanning. Users can scan QR codes to link their photos to specific events. The photos are stored in Firebase Storage, while the associated details are saved in Firestore. Each user is limited to uploading a maximum of 5 photos per event, ensuring organized and efficient event photo management.
